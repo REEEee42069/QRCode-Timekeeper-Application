@@ -2,7 +2,7 @@
 
 import axios from "axios";
 export default axios.create({
-  baseURL: "https://backend-for-heroku.herokuapp.com/api",
+  baseURL: "https://backend-eibb.onrender.com//api",
   headers: {
     "Content-type": "application/json",
   },
