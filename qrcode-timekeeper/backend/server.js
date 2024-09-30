@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://frontend-for-heroku.herokuapp.com"
+  origin: "https://qr-code-timekeeper-application.vercel.app/"
 };
 
 app.use(cors(corsOptions));
